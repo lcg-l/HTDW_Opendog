@@ -110,7 +110,7 @@
     </collision>
   </link>
   <joint name="FL_calf_joint" type="revolute">
-    <origin xyz="-0.0026011 0.0035 -0.14998" rpy="0 0 0" />
+    <origin xyz="0 0.0035 -0.15" rpy="0 0 0" />
     <parent link="FL_thigh" />
     <child link="FL_calf" />
     <axis xyz="0 1 0" />
@@ -134,12 +134,12 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.02"/>
+         <sphere radius="0.02"/>
       </geometry>
     </collision>
   </link>
   <joint name="FL_foot_joint" type="fixed">
-    <origin xyz="-0.0026011 0 -0.14998" rpy="0 0 0" />
+    <origin xyz="0 0 -0.15" rpy="0 0 0" />
     <parent link="FL_calf" />
     <child link="FL_foot" />
     <axis xyz="0 0 0" />
@@ -225,7 +225,7 @@
     </collision>
   </link>
   <joint name="FR_calf_joint" type="revolute">
-    <origin xyz="-0.017107 0 -0.14902" rpy="0 0 0" />
+    <origin xyz="0 0 -0.15" rpy="0 0 0" />
     <parent link="FR_thigh" />
     <child link="FR_calf" />
     <axis xyz="0 1 0" />
@@ -249,12 +249,12 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.02"/>
+         <sphere radius="0.02"/>
       </geometry>
     </collision>
   </link>
   <joint name="FR_foot_joint" type="fixed">
-    <origin xyz="-0.017107 0 -0.14902" rpy="0 0 0" />
+    <origin xyz="0 0 -0.15" rpy="0 0 0" />
     <parent link="FR_calf" />
     <child link="FR_foot" />
     <axis xyz="0 0 0" />
@@ -340,7 +340,7 @@
     </collision>
   </link>
   <joint name="RL_calf_joint" type="revolute">
-    <origin xyz="-0.016035 0 -0.14914" rpy="0 0 0" />
+    <origin xyz="0 0 -0.15" rpy="0 0 0" />
     <parent link="RL_thigh" />
     <child link="RL_calf" />
     <axis xyz="0 1 0" />
@@ -364,12 +364,12 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.02"/>
+         <sphere radius="0.02"/>
       </geometry>
     </collision>
   </link>
   <joint name="RL_foot_joint" type="fixed">
-    <origin xyz="-0.0160344934758346 0 -0.149140520034684" rpy="0 0 0" />
+    <origin xyz="0 0 -0.15" rpy="0 0 0" />
     <parent link="RL_calf" />
     <child link="RL_foot" />
     <axis xyz="0 0 0" />
@@ -455,7 +455,7 @@
     </collision>
   </link>
   <joint name="RR_calf_joint" type="revolute">
-    <origin xyz="-0.014931 0 -0.14926" rpy="0 0 0" />
+    <origin xyz="0 0 -0.15" rpy="0 0 0" />
     <parent link="RR_thigh" />
     <child link="RR_calf" />
     <axis xyz="0 1 0" />
@@ -479,12 +479,12 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.02"/>
+         <sphere radius="0.02"/>
       </geometry>
     </collision>
   </link>
   <joint name="RR_foot_joint" type="fixed">
-    <origin xyz="-0.014931 0 -0.14926" rpy="0 0 0" />
+    <origin xyz="0 0 -0.15" rpy="0 0 0" />
     <parent link="RR_calf" />
     <child link="RR_foot" />
     <axis xyz="0 0 0" />
