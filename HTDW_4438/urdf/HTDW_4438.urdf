@@ -60,9 +60,9 @@
   </joint>
   <link name="FL_thigh">
     <inertial>
-      <origin xyz="-0.00297476 -0.01800033 -0.02107619" rpy="0 0 0" />
-      <mass value="0.47279447" />
-      <inertia ixx="0.00103183" ixy="2.421e-05" ixz="-7.152e-05" iyy="0.00094144" iyz="0.00018112" izz="0.00024056" />
+      <origin xyz="-0.00360471 -0.01763227 -0.02190343" rpy="0 0 0" />
+      <mass value="0.48086181" />
+      <inertia ixx="0.00103502" ixy="2.935e-05" ixz="-8.603e-05" iyy="0.00094426" iyz="0.00018729" izz="0.00024889" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -110,7 +110,7 @@
     </collision>
   </link>
   <joint name="FL_calf_joint" type="revolute">
-    <origin xyz="0 0 -0.15" rpy="0 0 0" />
+    <origin xyz="-0.0026011 0.0035 -0.14998" rpy="0 0 0" />
     <parent link="FL_thigh" />
     <child link="FL_calf" />
     <axis xyz="0 1 0" />
@@ -139,7 +139,7 @@
     </collision>
   </link>
   <joint name="FL_foot_joint" type="fixed">
-    <origin xyz="0 0 -0.15" rpy="0 0 0" />
+    <origin xyz="-0.0026011 0 -0.14998" rpy="0 0 0" />
     <parent link="FL_calf" />
     <child link="FL_foot" />
     <axis xyz="0 0 0" />
@@ -175,9 +175,9 @@
   </joint>
   <link name="FR_thigh">
     <inertial>
-      <origin xyz="-0.00313741 0.01800027 -0.02121661" rpy="0 0 0" />
-      <mass value="0.47279491" />
-      <inertia ixx="0.0010289" ixy="-2.518e-05" ixz="-6.847e-05" iyy="0.00093817" iyz="-0.0001799" izz="0.00024021" />
+      <origin xyz="-0.00559051 0.01763224 -0.02107369" rpy="0 0 0" />
+      <mass value="0.48086142" />
+      <inertia ixx="0.00101933" ixy="-4.59e-05" ixz="-0.00016158" iyy="0.00095262" iyz="-0.00017843" izz="0.00027294" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -225,7 +225,7 @@
     </collision>
   </link>
   <joint name="FR_calf_joint" type="revolute">
-    <origin xyz="0 0 -0.15" rpy="0 0 0" />
+    <origin xyz="-0.017107 0 -0.14902" rpy="0 0 0" />
     <parent link="FR_thigh" />
     <child link="FR_calf" />
     <axis xyz="0 1 0" />
@@ -253,8 +253,8 @@
       </geometry>
     </collision>
   </link>
-  <joint name="FR_foot" type="fixed">
-    <origin xyz="0 0 -0.149999998990809" rpy="0 0 0" />
+  <joint name="FR_foot_joint" type="fixed">
+    <origin xyz="-0.017107 0 -0.14902" rpy="0 0 0" />
     <parent link="FR_calf" />
     <child link="FR_foot" />
     <axis xyz="0 0 0" />
@@ -290,9 +290,9 @@
   </joint>
   <link name="RL_thigh">
     <inertial>
-      <origin xyz="-0.0032586 -0.01800033 -0.02118103" rpy="0 0 0" />
-      <mass value="0.47279447" />
-      <inertia ixx="0.00102822" ixy="2.639e-05" ixz="-6.677e-05" iyy="0.00093851" iyz="0.00018193" izz="0.00024123" />
+      <origin xyz="-0.00555466 -0.01763227 -0.02101551" rpy="0 0 0" />
+      <mass value="0.48086181" />
+      <inertia ixx="0.00102307" ixy="4.602e-05" ixz="-0.00015399" iyy="0.00095399" iyz="0.00018026" izz="0.00027057" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -340,7 +340,7 @@
     </collision>
   </link>
   <joint name="RL_calf_joint" type="revolute">
-    <origin xyz="0 0 -0.15" rpy="0 0 0" />
+    <origin xyz="-0.016035 0 -0.14914" rpy="0 0 0" />
     <parent link="RL_thigh" />
     <child link="RL_calf" />
     <axis xyz="0 1 0" />
@@ -369,7 +369,7 @@
     </collision>
   </link>
   <joint name="RL_foot_joint" type="fixed">
-    <origin xyz="0 0 -0.15" rpy="0 0 0" />
+    <origin xyz="-0.0160344934758346 0 -0.149140520034684" rpy="0 0 0" />
     <parent link="RL_calf" />
     <child link="RL_foot" />
     <axis xyz="0 0 0" />
@@ -405,9 +405,9 @@
   </joint>
   <link name="RR_thigh">
     <inertial>
-      <origin xyz="-0.00313741 0.01800027 -0.02121661" rpy="0 0 0" />
-      <mass value="0.47279491" />
-      <inertia ixx="0.0010289" ixy="-2.518e-05" ixz="-6.847e-05" iyy="0.00093817" iyz="-0.0001799" izz="0.00024021" />
+      <origin xyz="-0.00521957 0.01761785 -0.02116423" rpy="0 0 0" />
+      <mass value="0.48086142" />
+      <inertia ixx="0.00102378" ixy="-4.288e-05" ixz="-0.00015179" iyy="0.00095271" iyz="-0.00018005" izz="0.00026924" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -454,8 +454,8 @@
       </geometry>
     </collision>
   </link>
-  <joint name="RR_calf" type="revolute">
-    <origin xyz="0 0 -0.15" rpy="0 0 0" />
+  <joint name="RR_calf_joint" type="revolute">
+    <origin xyz="-0.014931 0 -0.14926" rpy="0 0 0" />
     <parent link="RR_thigh" />
     <child link="RR_calf" />
     <axis xyz="0 1 0" />
@@ -484,7 +484,7 @@
     </collision>
   </link>
   <joint name="RR_foot_joint" type="fixed">
-    <origin xyz="0 0 -0.15" rpy="0 0 0" />
+    <origin xyz="-0.014931 0 -0.14926" rpy="0 0 0" />
     <parent link="RR_calf" />
     <child link="RR_foot" />
     <axis xyz="0 0 0" />
