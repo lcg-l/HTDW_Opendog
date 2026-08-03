@@ -1,0 +1,19 @@
+<mujoco model="ri_4438 locomotion task">
+  <!-- Contact geoms are named in the robot XML for runtime contact lookup.
+       This MuJoCo version does not support <sensor><contact>, so keep this
+       task file limited to schema-compatible keyframes. -->
+
+  <keyframe>
+    <key name="home" qpos="
+        0 0 0.25  1 0 0 0
+        0 0.9 -1.8
+        0 0.9 -1.8
+        0 0.9 -1.8
+        0 0.9 -1.8"
+      ctrl="
+        0 0.9 -1.8
+        0 0.9 -1.8
+        0 0.9 -1.8
+        0 0.9 -1.8"/>
+  </keyframe>
+</mujoco>
