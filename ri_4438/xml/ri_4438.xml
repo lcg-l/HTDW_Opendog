@@ -32,8 +32,8 @@
       <site name="imu" pos="0 0 0" />
       <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="base_link_part_1" material="visual_body" />
       <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="base_link_part_2" material="visual_body" />
-      <geom name="base_collision_part_1" type="mesh" mesh="base_link_part_1" group="3" material="collision_debug" rgba="0.95 0.65 0.12 0.35" />
-      <geom name="base_collision_part_2" type="mesh" mesh="base_link_part_2" group="3" material="collision_debug" rgba="0.95 0.65 0.12 0.35" />
+      <!-- MuJoCo box size stores half-extents; this matches the URDF box. -->
+      <geom name="base_collision" type="box" pos="0 -0.0011 0" size="0.10 0.065 0.045" group="3" material="collision_debug" rgba="0.95 0.65 0.12 0.35" />
       <body name="FL_hip" pos="0.14165 0.037 0">
         <inertial pos="-0.00266064 0.00153194 -0.00011724" quat="-0.0372601 0.71114 0.0168296 0.701861" mass="0.270797" diaginertia="3.5803e-05 3.43926e-05 2.35344e-05" />
         <joint name="FL_hip_joint" pos="0 0 0" axis="1 0 0" range="-1.5 1.5" />
@@ -103,7 +103,7 @@
         <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="RR_hip" material="visual_body" />
         <geom name="RR_hip_geom" type="mesh" mesh="RR_hip" group="3" material="collision_debug" rgba="0.95 0.65 0.12 0.35" />
         <body name="RR_thigh" pos="0 -0.0834 0">
-          <inertial pos="-0.00521957 0.0176179 -0.0211642" quat="-0.0168296 0.701861 0.0372601 0.71114" mass="0.480861" diaginertia="0.00105421 0.000996786 0.000194732" />
+          <inertial pos="-0.00521957 0.01761785 -0.02116423" mass="0.48086142" fullinertia="0.00102378 0.00095271 0.00026924 -0.00004288 -0.00015179 -0.00018005" />
           <joint name="RR_thigh_joint" pos="0 0 0" axis="0 1 0" range="-1.57 3.49" />
           <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="RR_thigh" material="visual_body" />
           <geom name="RR_thigh_geom" type="mesh" mesh="RR_thigh" group="3" material="collision_debug" rgba="0.95 0.65 0.12 0.35" />
