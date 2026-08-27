@@ -199,7 +199,7 @@
     <origin xyz="0 -0.1034 0" rpy="0 0 0" />
     <parent link="FR_hip" />
     <child link="FR_thigh" />
-    <axis xyz="0 -1 0" />
+    <axis xyz="0 1 0" />
     <limit lower="-1.57" upper="3.49" effort="21" velocity="50" />
   </joint>
   <link name="FR_calf">
@@ -364,12 +364,12 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.02"/>
+        <sphere radius="0.02" />
       </geometry>
     </collision>
   </link>
   <joint name="RL_foot_joint" type="fixed">
-    <origin xyz="0 0 -0.149999998923394" rpy="0 0 0" />
+    <origin xyz="0 0 -0.15" rpy="0 0 0" />
     <parent link="RL_calf" />
     <child link="RL_foot" />
     <axis xyz="0 0 0" />
@@ -479,12 +479,12 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.02" />
+        <sphere radius="0.02"/>
       </geometry>
     </collision>
   </link>
   <joint name="RR_foot_joint" type="fixed">
-    <origin xyz="0 0 -0.149999998923393" rpy="0 0 0" />
+    <origin xyz="0 0 -0.15" rpy="0 0 0" />
     <parent link="RR_calf" />
     <child link="RR_foot" />
     <axis xyz="0 0 0" />
