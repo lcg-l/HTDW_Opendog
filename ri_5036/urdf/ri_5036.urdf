@@ -131,12 +131,12 @@
         <color rgba="0.298039215686275 0.298039215686275 0.298039215686275 1" />
       </material>
     </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <mesh filename="../meshes/FL_foot.STL" />
-      </geometry>
-    </collision>
+     <collision>
+       <origin xyz="0 0 0" rpy="0 0 0" />
+       <geometry>
+         <sphere radius="0.022"/>
+       </geometry>
+     </collision>
   </link>
   <joint name="FL_foot_joint" type="fixed">
     <origin xyz="0 0 -0.2" rpy="0 0 0" />
@@ -249,7 +249,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/FR_foot.STL" />
+        <sphere radius="0.022" />
       </geometry>
     </collision>
   </link>
@@ -364,7 +364,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/RL_foot.STL" />
+        <sphere radius="0.022" />
       </geometry>
     </collision>
   </link>
@@ -479,7 +479,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/RR_foot.STL" />
+        <sphere radius="0.022" />
       </geometry>
     </collision>
   </link>

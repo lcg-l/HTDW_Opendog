@@ -134,7 +134,7 @@
      <collision>
        <origin xyz="0 0 0" rpy="0 0 0" />
        <geometry>
-         <sphere radius="0.01675"/>
+         <sphere radius="0.022"/>
        </geometry>
      </collision>
   </link>
@@ -249,7 +249,7 @@
     <collision>
        <origin xyz="0 0 0" rpy="0 0 0" />
        <geometry>
-         <sphere radius="0.01675"/>
+         <sphere radius="0.022"/>
        </geometry>
      </collision>
   </link>
@@ -364,7 +364,7 @@
     <collision>
        <origin xyz="0 0 0" rpy="0 0 0" />
        <geometry>
-         <sphere radius="0.01675"/>
+         <sphere radius="0.022"/>
        </geometry>
      </collision>
   </link>
@@ -479,7 +479,7 @@
      <collision>
        <origin xyz="0 0 0" rpy="0 0 0" />
        <geometry>
-         <sphere radius="0.01675"/>
+         <sphere radius="0.022"/>
        </geometry>
      </collision>
   </link>
