@@ -134,7 +134,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/FL_foot.STL" />
+        <sphere radius="0.02"/>  
       </geometry>
     </collision>
   </link>
@@ -249,7 +249,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/FR_foot.STL" />
+        <sphere radius="0.02" />
       </geometry>
     </collision>
   </link>
@@ -364,7 +364,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/RL_foot.STL" />
+        <sphere radius="0.02"/>  
       </geometry>
     </collision>
   </link>
@@ -479,7 +479,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/RR_foot.STL" />
+        <sphere radius="0.02"/>  
       </geometry>
     </collision>
   </link>
